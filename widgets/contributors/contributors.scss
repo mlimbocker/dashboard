@@ -1,0 +1,47 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #ea890c;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-contributors styles
+// ----------------------------------------------------------------------------
+.widget-contributors {
+
+  background-color: $background-color;
+
+  .title {
+    color: $title-color;
+    margin-bottom: 15px;
+  }
+
+  .name {
+    padding-left: 5px;
+    font-size: 25px;
+  }
+
+  .comment{
+  	font-size: 25px;
+  }
+
+  .comment-container {
+    display: none;
+  }
+
+  .avatar-container{
+  	float:left;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .avatar{
+  	width: 75px;
+  	height: 75px;
+  }
+
+}

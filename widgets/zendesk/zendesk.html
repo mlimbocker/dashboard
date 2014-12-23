@@ -1,0 +1,13 @@
+<h3 data-bind="title"></h3>
+
+<div class="list-wrapper">
+	<ul class="list-nostyle">
+	  <li data-foreach-item="items">
+	    <a class="title" data-bind-href="item.url" data-bind="item.label" target="_blank"></a>
+	    <p class="description" data-bind="item.value"></p>
+	  </li>
+	</ul>
+</div>
+
+<p class="more-info" data-bind="moreinfo"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>
